@@ -1,0 +1,4 @@
+@EndUserText.label: 'Duplicate Vendor Invoice Payments'
+define service ZAI_DUPL_INV_P_SERVICED {
+  expose ZAI_DUPL_INV_P;
+}

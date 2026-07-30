@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abap:serviceDefinition
+    xmlns:abap="http://www.sap.com/adt/ddic/ddls"
+    name="ZAI_DUPL_INV_P_SERVICED">
+
+    <description>Duplicate Vendor Invoice Payments</description>
+
+    <exposedEntities>
+        <entity
+            name="ZAI_DUPL_INV_P"
+            cdsView="ZAI_DUPL_INV_P"/>
+    </exposedEntities>
+
+</abap:serviceDefinition>

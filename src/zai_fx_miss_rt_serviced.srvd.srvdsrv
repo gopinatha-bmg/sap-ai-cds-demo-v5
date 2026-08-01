@@ -1,4 +1,0 @@
-@EndUserText.label: 'FX Docs Missing Exchange Rate'
-define service ZAI_FX_MISS_RT_SERVICED {
-  expose ZAI_FX_MISS_RT;
-}

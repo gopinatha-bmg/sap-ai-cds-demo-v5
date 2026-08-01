@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abap:serviceDefinition
+    xmlns:abap="http://www.sap.com/adt/ddic/ddls"
+    name="ZAI_FX_MISS_RT_SERVICED">
+
+    <description>FX Docs Missing Exchange Rate</description>
+
+    <exposedEntities>
+        <entity
+            name="ZAI_FX_MISS_RT"
+            cdsView="ZAI_FX_MISS_RT"/>
+    </exposedEntities>
+
+</abap:serviceDefinition>

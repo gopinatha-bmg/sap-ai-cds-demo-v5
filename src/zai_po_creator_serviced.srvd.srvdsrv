@@ -1,0 +1,4 @@
+@EndUserText.label: 'PO Creator and Approver Same Person'
+define service ZAI_PO_CREATOR_SERVICED {
+  expose ZAI_PO_CREATOR;
+}

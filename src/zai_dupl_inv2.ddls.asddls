@@ -1,4 +1,4 @@
-@AbapCatalog.sqlViewName: 'ZAI_DUPL_INV_sql'
+@AbapCatalog.sqlViewName: 'ZAI_DUP_INV2_sql'
 
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 
@@ -15,7 +15,7 @@ description: { type: #STANDARD, value: 'VendorName' } }
 // Generates service: ZI_DUPLICATE_INVOICE_DETECT_CDS
 // Register in SAP GUI: /IWFND/MAINT_SERVICE → Add Service → Alias: Local
 
-define view ZAI_DUPL_INV1
+define view ZAI_DUPL_INV2
 with parameters
 // budat is a named SAP data element of type DATS — OData compatible
 //@Consumption.defaultValue: '00000000'

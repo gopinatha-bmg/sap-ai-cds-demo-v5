@@ -1,4 +1,4 @@
-@AbapCatalog.sqlViewName: 'ZAI_DUP_INV2_sql'
+@AbapCatalog.sqlViewName: 'ZAI_DUP_INV2_SQL'
 
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 

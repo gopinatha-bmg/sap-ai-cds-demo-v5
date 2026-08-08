@@ -6,7 +6,7 @@
     <METADATA>
      <NAME>ZAI_DUPL_INV2_SERVICEB</NAME>
      <TYPE>SRVB/SVB</TYPE>
-     <DESCRIPTION>Service Binding12</DESCRIPTION>
+     <DESCRIPTION>Service Binding123</DESCRIPTION>
     </METADATA>
     <CONTENT>
      <BIND_TYPE_IMPL>
@@ -23,7 +23,7 @@
          <SERVICE_VERSION>0001</SERVICE_VERSION>
          <RELEASE_STATE>NOT_RELEASED</RELEASE_STATE>
          <SRVD_REF>
-          <URI>/sap/bc/adt/ddic/srvd/sources/zai_dupl_inv3d</URI>
+          <URI>/sap/bc/adt/ddic/srvd/sources/zai_dupl_inv2_serviced</URI>
           <TYPE>SRVD/SRV</TYPE>
           <NAME>ZAI_DUPL_INV2_SERVICED</NAME>
          </SRVD_REF>

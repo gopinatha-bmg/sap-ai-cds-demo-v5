@@ -1,4 +1,4 @@
 @EndUserText.label: 'Duplicate Invoice Detection'
-define service ZAI_DUPL_INV1_SERVICED {
-  expose ZAI_DUPL_INV1;
+define service ZAI_DUPL_INV2_SERVICED {
+  expose ZAI_DUPL_INV2;
 }

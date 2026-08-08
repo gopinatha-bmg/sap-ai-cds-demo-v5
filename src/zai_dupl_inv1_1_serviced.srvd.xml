@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abap:serviceDefinition
+    xmlns:abap="http://www.sap.com/adt/ddic/ddls"
+    name="ZAI_DUPL_INV1_1_SERVICED">
+
+    <description>Duplicate Invoice Detection</description>
+
+    <exposedEntities>
+        <entity
+            name="ZAI_DUPL_INV1_1"
+            cdsView="ZAI_DUPL_INV1_1"/>
+    </exposedEntities>
+
+</abap:serviceDefinition>

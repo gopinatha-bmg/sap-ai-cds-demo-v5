@@ -3,18 +3,43 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <SRVB>
-    <BINDING_NAME>ZAI_DUPL_INV2_SERVICEB</BINDING_NAME>
-    <BINDING_TYPE>ODATA</BINDING_TYPE>
-    <BINDING_VERSION>V4</BINDING_VERSION>
-    <BINDING_CATEGORY>UI</BINDING_CATEGORY>
-    <DDTEXT>Duplicate Invoice Detection</DDTEXT>
-    <SERVICES>
-     <SERVICE>
-      <NAME>ZAI_DUPL_INV2_SERVICED</NAME>
-      <VERSION>0001</VERSION>
-      <RELEASE_STATE>RELEASED</RELEASE_STATE>
-     </SERVICE>
-    </SERVICES>
+    <METADATA>
+     <NAME>ZAI_DUPL_INV2_SERVICEB</NAME>
+     <TYPE>SRVB/SVB</TYPE>
+     <DESCRIPTION>Service Binding12</DESCRIPTION>
+    </METADATA>
+    <CONTENT>
+     <BIND_TYPE_IMPL>
+      <NAME>ZAI_DUPL_INV2_SERVICEB</NAME>
+     </BIND_TYPE_IMPL>
+     <BIND_TYPE>ODATA</BIND_TYPE>
+     <BIND_TYPE_CATEGORY>1</BIND_TYPE_CATEGORY>
+     <BIND_TYPE_VERSION>V4</BIND_TYPE_VERSION>
+     <SERVICES>
+      <item>
+       <SERVICE_NAME>ZAI_DUPL_INV2_SERVICED</SERVICE_NAME>
+       <SERVICE_CONTENT>
+        <item>
+         <SERVICE_VERSION>0001</SERVICE_VERSION>
+         <RELEASE_STATE>NOT_RELEASED</RELEASE_STATE>
+         <SRVD_REF>
+          <URI>/sap/bc/adt/ddic/srvd/sources/zai_dupl_inv3d</URI>
+          <TYPE>SRVD/SRV</TYPE>
+          <NAME>ZAI_DUPL_INV2_SERVICED</NAME>
+         </SRVD_REF>
+         <BIND_TYPE_DATA>
+          <CONTENT>
+           <ENCODING>base64</ENCODING>
+          </CONTENT>
+         </BIND_TYPE_DATA>
+        </item>
+       </SERVICE_CONTENT>
+      </item>
+     </SERVICES>
+    </CONTENT>
+    <CONTRACT>C2</CONTRACT>
+    <RELEASE_SUPPORTED>true</RELEASE_SUPPORTED>
+    <BINDING_CREATED>true</BINDING_CREATED>
    </SRVB>
   </asx:values>
  </asx:abap>
